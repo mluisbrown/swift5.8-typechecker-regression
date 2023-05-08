@@ -2,6 +2,8 @@
 
 This repo demonstrates a type checker regression in the Swift 5.8 compiler which was not there in the Swift 5.7 compiler.
 
+Swift project issue: https://github.com/apple/swift/issues/65765
+
 In the `SwiftTypeCheckerRegression.swift` file, in the `Combined` struct there is an explanation:
 
 ```swift
